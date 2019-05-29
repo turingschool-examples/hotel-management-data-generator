@@ -6,10 +6,27 @@ function genDate() {
   return moment().add(daysInFuture, 'days').format('DD/MM/YYYY');
 }
 
+function genUserIDList() {
+  return (new Array(global.numUsers)).fill().map((id, idx) => idx + 1);
+}
+
+function pickRandomUser(possibleUsers) {
+  if (!possibleUsers.length) {
+    possibleUsers = genUserIDList();
+  } 
+  let userID = possibleUsers[Math.floor(Math.random() * possibleUsers.length)];
+  possibleUsers.splice(possibleUsers.indexOf(userID), 1);
+  return userID;
+}
+
 function genBookings() {
-  return (new Array(global.numUsers * 2)).fill().map(function(user, idx) {
+  let possibleUsers = genUserIDList();
+
+  return (new Array(global.numUsers * 2)).fill().map(function(booking) {
+    let userForBooking = pickRandomUser(possibleUsers);
+
     return {
-      userID: generateValueWithinRange(1, global.numUsers, 0),
+      userID: generateValueWithinRange(userForBooking, userForBooking, 0),
       date: genDate(),
       roomNumber: generateValueWithinRange(1, global.numRoomsInHotel, 0)
     }

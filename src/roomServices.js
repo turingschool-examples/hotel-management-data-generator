@@ -14,9 +14,9 @@ function genFood() {
 }
 
 function genRoomServices() {
-  return (new Array(global.numUsers)).fill().map(function(user, idx) {
+  return (new Array(global.numUsers)).fill().map(function(roomService) {
     let userID = generateValueWithinRange(1, global.numUsers, 0);
-
+    
     return {
       userID: userID,
       date: genDate(userID),
