@@ -1,6 +1,7 @@
 const writeToFile = require('./src/util').writeToFile;
 const genUsers = require('./src/users');
 const genBookings = require('./src/bookings');
+const genRoomServices = require('./src/roomServices');
 
 // Globals
 global.numUsers = 5;
@@ -14,3 +15,5 @@ console.log('Generating users...');
 writeToFile('./output/users.js', genUsers());
 console.log('Generating bookings...');
 writeToFile('./output/bookings.js', genBookings());
+console.log('Generating room services...');
+writeToFile('./output/roomServices.js', genRoomServices());

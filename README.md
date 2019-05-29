@@ -34,6 +34,7 @@ Each room service record has:
 ```js
 {
   userID: [number],
+  date: [string], // this must match a date that was booked for the user
   food: [string],
   totalCost: [number]
 }

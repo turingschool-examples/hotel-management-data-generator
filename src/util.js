@@ -1,12 +1,10 @@
-const fs = require('fs').promises;
+const fs = require('fs');
 
 module.exports = {
   writeToFile: function(filename, data) {
     dataToJSON = JSON.stringify(data, null, 2);
 
-    fs.writeFile(filename, dataToJSON)
-      .then(() => console.log(filename + ' written to file.'))
-      .catch(err => console.error(err));
+    fs.writeFileSync(filename, dataToJSON);
   },
 
   generateValueWithinRange: function(min, max, precision) {
