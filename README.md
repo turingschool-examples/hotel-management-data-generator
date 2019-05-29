@@ -34,7 +34,6 @@ Each room service record has:
 ```js
 {
   userID: [number],
-  date: [string],
   food: [string],
   totalCost: [number]
 }
@@ -47,7 +46,7 @@ Each room has:
 ```js
 {
   number: [number],
-  type: [string],
+  roomType: [string],
   bidet: [boolean],
   bedSize: [string],
   numBeds: [number],

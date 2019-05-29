@@ -7,5 +7,9 @@ module.exports = {
     fs.writeFile(filename, dataToJSON)
       .then(() => console.log(filename + ' written to file.'))
       .catch(err => console.error(err));
+  },
+
+  generateValueWithinRange: function(min, max, precision) {
+    return parseFloat((Math.random() * (max - min) + min).toFixed(precision));
   }
 }
