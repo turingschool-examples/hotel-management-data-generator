@@ -19,17 +19,33 @@ function pickRandomUser(possibleUsers) {
   return userID;
 }
 
+function checkIfBookingTaken(date, roomNumber, bookingsArray) {
+  return !bookingsArray.find(booking => {
+    booking.date === date && booking.roomNumber === roomNumber;
+  });
+}
+
+function generateValidBooking(bookingsArray) {
+  let userForBooking = pickRandomUser(possibleUsers);
+  let validFlag = false;
+
+  while (!validFlag) {
+    let date = genDate();
+    let roomNumber = generateValueWithinRange(1, global.numRoomsInHotel, 0);
+    
+    if (checkIfBookingTaken(date, roomNumber, bookingsArray)) {
+      validFlag = true;
+      let userID = generateValueWithinRange(userForBooking, userForBooking, 0);
+      return {userID, date, roomNumber};
+    }  
+  }
+}
+
 function genBookings() {
   let possibleUsers = genUserIDList();
 
-  return (new Array(global.numUsers * 2)).fill().map(function(booking) {
-    let userForBooking = pickRandomUser(possibleUsers);
-
-    return {
-      userID: generateValueWithinRange(userForBooking, userForBooking, 0),
-      date: genDate(),
-      roomNumber: generateValueWithinRange(1, global.numRoomsInHotel, 0)
-    }
+  return (new Array(global.numUsers * 2)).fill().map(function(booking, idx, bookingsArray) {
+    return generateValidBooking(bookingsArray);
   });
 }
 

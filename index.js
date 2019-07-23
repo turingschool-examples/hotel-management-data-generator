@@ -5,8 +5,8 @@ const genRoomServices = require('./src/roomServices');
 const genRooms = require('./src/rooms');
 
 // Globals
-global.numUsers = 50;
-global.numDays = 200;
+global.numUsers = 100;
+global.numDays = 300;
 global.numRoomsInHotel = 200;
 global.faker = require('faker');
 global.faker.locale = 'en_US';
