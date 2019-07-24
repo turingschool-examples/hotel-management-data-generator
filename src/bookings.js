@@ -47,9 +47,8 @@ function genBookings() {
   // booking the same room for the same day
   let bookings = [];
 
-  for (let i=0; i <= (global.numUsers * 2); i++) {
+  for (let i=0; i <= (global.numBookings); i++) {
     let userForBooking = pickRandomUser(possibleUsers);
-    console.log(bookings);
     bookings.push(generateValidBooking(userForBooking, bookings));
   }
 
