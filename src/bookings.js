@@ -19,24 +19,22 @@ function pickRandomUser(possibleUsers) {
   return userID;
 }
 
-function checkIfBookingTaken(date, roomNumber, bookingsArray) {
-  return !bookingsArray.find(booking => {
-    booking.date === date && booking.roomNumber === roomNumber;
+function checkIfBookingExists(date, roomNumber, bookings) {
+  return bookings.find(booking => {
+    return booking.date === date && booking.roomNumber === roomNumber;
   });
 }
 
-function generateValidBooking(bookingsArray) {
-  let userForBooking = pickRandomUser(possibleUsers);
+function generateValidBooking(userForBooking, bookings) {
   let validFlag = false;
 
   while (!validFlag) {
-    let date = genDate();
-    let roomNumber = generateValueWithinRange(1, global.numRoomsInHotel, 0);
+    let randomDate = genDate();
+    let randomRoomNumber = generateValueWithinRange(1, global.numRoomsInHotel, 0);
     
-    if (checkIfBookingTaken(date, roomNumber, bookingsArray)) {
+    if (!checkIfBookingExists(randomDate, randomRoomNumber, bookings)) {
       validFlag = true;
-      let userID = generateValueWithinRange(userForBooking, userForBooking, 0);
-      return {userID, date, roomNumber};
+      return {userID: userForBooking, date: randomDate, roomNumber: randomRoomNumber};
     }  
   }
 }
@@ -44,9 +42,18 @@ function generateValidBooking(bookingsArray) {
 function genBookings() {
   let possibleUsers = genUserIDList();
 
-  return (new Array(global.numUsers * 2)).fill().map(function(booking, idx, bookingsArray) {
-    return generateValidBooking(bookingsArray);
-  });
+  // Would have used a .map() here, but I needed to check the contents
+  // of the bookings array as it was being made to see that no one was
+  // booking the same room for the same day
+  let bookings = [];
+
+  for (let i=0; i <= (global.numUsers * 2); i++) {
+    let userForBooking = pickRandomUser(possibleUsers);
+    console.log(bookings);
+    bookings.push(generateValidBooking(userForBooking, bookings));
+  }
+
+  return bookings;
 }
 
 module.exports = genBookings;

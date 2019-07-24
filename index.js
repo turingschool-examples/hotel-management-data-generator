@@ -5,9 +5,9 @@ const genRoomServices = require('./src/roomServices');
 const genRooms = require('./src/rooms');
 
 // Globals
-global.numUsers = 100;
-global.numDays = 300;
-global.numRoomsInHotel = 200;
+global.numUsers = 10;
+global.numDays = 10;
+global.numRoomsInHotel = 150;
 global.faker = require('faker');
 global.faker.locale = 'en_US';
 
@@ -16,7 +16,7 @@ console.log('Generating users...');
 writeToFile('./output/users.js', genUsers());
 console.log('Generating bookings...');
 writeToFile('./output/bookings.js', genBookings());
-console.log('Generating room services...');
-writeToFile('./output/roomServices.js', genRoomServices());
-console.log('Generating rooms...');
-writeToFile('./output/rooms.js', genRooms());
+// console.log('Generating room services...');
+// writeToFile('./output/roomServices.js', genRoomServices());
+// console.log('Generating rooms...');
+// writeToFile('./output/rooms.js', genRooms());
