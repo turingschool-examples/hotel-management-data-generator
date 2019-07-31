@@ -1,155 +1,155 @@
 [
   {
     "number": 1,
-    "roomType": "junior suite",
+    "roomType": "residential suite",
     "bidet": true,
-    "bedSize": "queen",
+    "bedSize": "twin",
     "numBeds": 1,
-    "costPerNight": 398.39
+    "costPerNight": 318.41
   },
   {
     "number": 2,
     "roomType": "single room",
     "bidet": false,
-    "bedSize": "full",
-    "numBeds": 2,
-    "costPerNight": 205.28
+    "bedSize": "queen",
+    "numBeds": 1,
+    "costPerNight": 424.32
   },
   {
     "number": 3,
-    "roomType": "junior suite",
+    "roomType": "suite",
     "bidet": false,
-    "bedSize": "queen",
+    "bedSize": "twin",
     "numBeds": 2,
-    "costPerNight": 342.4
+    "costPerNight": 250.71
   },
   {
     "number": 4,
-    "roomType": "junior suite",
-    "bidet": true,
-    "bedSize": "queen",
-    "numBeds": 2,
-    "costPerNight": 298.03
-  },
-  {
-    "number": 5,
     "roomType": "residential suite",
     "bidet": true,
     "bedSize": "king",
     "numBeds": 1,
-    "costPerNight": 353.68
+    "costPerNight": 476.94
+  },
+  {
+    "number": 5,
+    "roomType": "suite",
+    "bidet": true,
+    "bedSize": "full",
+    "numBeds": 2,
+    "costPerNight": 306.19
   },
   {
     "number": 6,
-    "roomType": "single room",
+    "roomType": "residential suite",
     "bidet": false,
-    "bedSize": "full",
-    "numBeds": 1,
-    "costPerNight": 181.93
+    "bedSize": "king",
+    "numBeds": 2,
+    "costPerNight": 357.53
   },
   {
     "number": 7,
-    "roomType": "single room",
+    "roomType": "residential suite",
     "bidet": false,
     "bedSize": "twin",
-    "numBeds": 2,
-    "costPerNight": 470.38
+    "numBeds": 1,
+    "costPerNight": 347.71
   },
   {
     "number": 8,
-    "roomType": "junior suite",
+    "roomType": "residential suite",
     "bidet": false,
-    "bedSize": "twin",
-    "numBeds": 2,
-    "costPerNight": 230.56
+    "bedSize": "full",
+    "numBeds": 1,
+    "costPerNight": 375.17
   },
   {
     "number": 9,
-    "roomType": "suite",
+    "roomType": "residential suite",
     "bidet": false,
     "bedSize": "queen",
-    "numBeds": 1,
-    "costPerNight": 252.04
+    "numBeds": 2,
+    "costPerNight": 172.85
   },
   {
     "number": 10,
     "roomType": "single room",
     "bidet": false,
-    "bedSize": "king",
-    "numBeds": 1,
-    "costPerNight": 249.02
+    "bedSize": "queen",
+    "numBeds": 2,
+    "costPerNight": 289.58
   },
   {
     "number": 11,
     "roomType": "single room",
-    "bidet": true,
+    "bidet": false,
     "bedSize": "twin",
     "numBeds": 2,
-    "costPerNight": 292.72
+    "costPerNight": 248.99
   },
   {
     "number": 12,
-    "roomType": "single room",
+    "roomType": "junior suite",
     "bidet": false,
     "bedSize": "twin",
-    "numBeds": 1,
-    "costPerNight": 479.83
+    "numBeds": 2,
+    "costPerNight": 296.01
   },
   {
     "number": 13,
-    "roomType": "single room",
+    "roomType": "suite",
     "bidet": false,
     "bedSize": "queen",
     "numBeds": 2,
-    "costPerNight": 356.16
+    "costPerNight": 336.37
   },
   {
     "number": 14,
-    "roomType": "residential suite",
-    "bidet": false,
-    "bedSize": "full",
-    "numBeds": 2,
-    "costPerNight": 207.78
+    "roomType": "suite",
+    "bidet": true,
+    "bedSize": "queen",
+    "numBeds": 1,
+    "costPerNight": 269.3
   },
   {
     "number": 15,
-    "roomType": "junior suite",
-    "bidet": false,
+    "roomType": "single room",
+    "bidet": true,
     "bedSize": "twin",
     "numBeds": 1,
-    "costPerNight": 432.78
+    "costPerNight": 159.73
   },
   {
     "number": 16,
-    "roomType": "junior suite",
-    "bidet": true,
+    "roomType": "single room",
+    "bidet": false,
     "bedSize": "king",
-    "numBeds": 1,
-    "costPerNight": 375.14
+    "numBeds": 2,
+    "costPerNight": 360.03
   },
   {
     "number": 17,
-    "roomType": "residential suite",
-    "bidet": false,
-    "bedSize": "full",
-    "numBeds": 2,
-    "costPerNight": 407.28
-  },
-  {
-    "number": 18,
-    "roomType": "single room",
+    "roomType": "junior suite",
     "bidet": true,
     "bedSize": "queen",
     "numBeds": 2,
-    "costPerNight": 439
+    "costPerNight": 394.24
+  },
+  {
+    "number": 18,
+    "roomType": "suite",
+    "bidet": false,
+    "bedSize": "queen",
+    "numBeds": 2,
+    "costPerNight": 329.01
   },
   {
     "number": 19,
     "roomType": "junior suite",
     "bidet": false,
-    "bedSize": "full",
-    "numBeds": 2,
-    "costPerNight": 408.5
+    "bedSize": "queen",
+    "numBeds": 1,
+    "costPerNight": 221.03
   },
   {
     "number": 20,
@@ -157,39 +157,39 @@
     "bidet": false,
     "bedSize": "full",
     "numBeds": 1,
-    "costPerNight": 479.6
+    "costPerNight": 332.85
   },
   {
     "number": 21,
-    "roomType": "junior suite",
+    "roomType": "residential suite",
     "bidet": false,
-    "bedSize": "king",
-    "numBeds": 1,
-    "costPerNight": 339.89
+    "bedSize": "full",
+    "numBeds": 2,
+    "costPerNight": 190.76
   },
   {
     "number": 22,
-    "roomType": "single room",
-    "bidet": false,
-    "bedSize": "queen",
-    "numBeds": 1,
-    "costPerNight": 213.77
+    "roomType": "suite",
+    "bidet": true,
+    "bedSize": "twin",
+    "numBeds": 2,
+    "costPerNight": 338.86
   },
   {
     "number": 23,
-    "roomType": "residential suite",
+    "roomType": "junior suite",
     "bidet": false,
-    "bedSize": "queen",
+    "bedSize": "twin",
     "numBeds": 2,
-    "costPerNight": 224.29
+    "costPerNight": 440.14
   },
   {
     "number": 24,
-    "roomType": "single room",
+    "roomType": "residential suite",
     "bidet": false,
-    "bedSize": "twin",
+    "bedSize": "queen",
     "numBeds": 1,
-    "costPerNight": 304.95
+    "costPerNight": 401.23
   },
   {
     "number": 25,
@@ -197,63 +197,63 @@
     "bidet": false,
     "bedSize": "twin",
     "numBeds": 2,
-    "costPerNight": 402.01
+    "costPerNight": 202.74
   },
   {
     "number": 26,
     "roomType": "residential suite",
     "bidet": false,
-    "bedSize": "queen",
+    "bedSize": "king",
     "numBeds": 2,
-    "costPerNight": 436.88
+    "costPerNight": 205.83
   },
   {
     "number": 27,
-    "roomType": "residential suite",
+    "roomType": "suite",
     "bidet": false,
-    "bedSize": "twin",
-    "numBeds": 1,
-    "costPerNight": 480.92
+    "bedSize": "queen",
+    "numBeds": 2,
+    "costPerNight": 277.34
   },
   {
     "number": 28,
     "roomType": "single room",
-    "bidet": false,
-    "bedSize": "king",
-    "numBeds": 2,
-    "costPerNight": 299.66
+    "bidet": true,
+    "bedSize": "full",
+    "numBeds": 1,
+    "costPerNight": 342.22
   },
   {
     "number": 29,
-    "roomType": "single room",
+    "roomType": "junior suite",
     "bidet": false,
-    "bedSize": "queen",
+    "bedSize": "twin",
     "numBeds": 2,
-    "costPerNight": 381.6
+    "costPerNight": 233.9
   },
   {
     "number": 30,
-    "roomType": "suite",
-    "bidet": true,
+    "roomType": "single room",
+    "bidet": false,
     "bedSize": "king",
     "numBeds": 2,
-    "costPerNight": 320.91
+    "costPerNight": 489.98
   },
   {
     "number": 31,
     "roomType": "single room",
-    "bidet": true,
+    "bidet": false,
     "bedSize": "queen",
     "numBeds": 1,
-    "costPerNight": 384.57
+    "costPerNight": 168.5
   },
   {
     "number": 32,
-    "roomType": "single room",
+    "roomType": "suite",
     "bidet": false,
-    "bedSize": "full",
-    "numBeds": 1,
-    "costPerNight": 395.28
+    "bedSize": "queen",
+    "numBeds": 2,
+    "costPerNight": 338.06
   },
   {
     "number": 33,
@@ -261,142 +261,142 @@
     "bidet": false,
     "bedSize": "queen",
     "numBeds": 1,
-    "costPerNight": 327.37
+    "costPerNight": 176.16
   },
   {
     "number": 34,
-    "roomType": "junior suite",
+    "roomType": "suite",
     "bidet": false,
-    "bedSize": "king",
+    "bedSize": "full",
     "numBeds": 1,
-    "costPerNight": 429.09
+    "costPerNight": 389
   },
   {
     "number": 35,
-    "roomType": "junior suite",
+    "roomType": "residential suite",
     "bidet": false,
     "bedSize": "queen",
-    "numBeds": 2,
-    "costPerNight": 376.78
+    "numBeds": 1,
+    "costPerNight": 211.23
   },
   {
     "number": 36,
-    "roomType": "junior suite",
+    "roomType": "single room",
     "bidet": false,
     "bedSize": "queen",
     "numBeds": 2,
-    "costPerNight": 179.89
+    "costPerNight": 160.18
   },
   {
     "number": 37,
-    "roomType": "junior suite",
-    "bidet": false,
-    "bedSize": "twin",
-    "numBeds": 2,
-    "costPerNight": 269.95
+    "roomType": "single room",
+    "bidet": true,
+    "bedSize": "queen",
+    "numBeds": 1,
+    "costPerNight": 383.88
   },
   {
     "number": 38,
-    "roomType": "residential suite",
-    "bidet": true,
-    "bedSize": "king",
-    "numBeds": 2,
-    "costPerNight": 290.56
+    "roomType": "single room",
+    "bidet": false,
+    "bedSize": "queen",
+    "numBeds": 1,
+    "costPerNight": 287.48
   },
   {
     "number": 39,
-    "roomType": "junior suite",
+    "roomType": "residential suite",
     "bidet": false,
     "bedSize": "queen",
-    "numBeds": 2,
-    "costPerNight": 184.09
+    "numBeds": 1,
+    "costPerNight": 493.96
   },
   {
     "number": 40,
-    "roomType": "single room",
-    "bidet": true,
+    "roomType": "suite",
+    "bidet": false,
     "bedSize": "king",
-    "numBeds": 1,
-    "costPerNight": 254.54
+    "numBeds": 2,
+    "costPerNight": 362.45
   },
   {
     "number": 41,
-    "roomType": "single room",
-    "bidet": false,
-    "bedSize": "queen",
-    "numBeds": 2,
-    "costPerNight": 158.56
-  },
-  {
-    "number": 42,
-    "roomType": "junior suite",
-    "bidet": true,
-    "bedSize": "full",
-    "numBeds": 1,
-    "costPerNight": 433.22
-  },
-  {
-    "number": 43,
-    "roomType": "suite",
-    "bidet": true,
-    "bedSize": "queen",
-    "numBeds": 1,
-    "costPerNight": 468.27
-  },
-  {
-    "number": 44,
-    "roomType": "junior suite",
-    "bidet": false,
-    "bedSize": "queen",
-    "numBeds": 1,
-    "costPerNight": 188.84
-  },
-  {
-    "number": 45,
     "roomType": "suite",
     "bidet": false,
     "bedSize": "king",
     "numBeds": 1,
-    "costPerNight": 272.86
+    "costPerNight": 392.14
   },
   {
-    "number": 46,
+    "number": 42,
+    "roomType": "suite",
+    "bidet": false,
+    "bedSize": "king",
+    "numBeds": 1,
+    "costPerNight": 438.28
+  },
+  {
+    "number": 43,
+    "roomType": "residential suite",
+    "bidet": false,
+    "bedSize": "queen",
+    "numBeds": 2,
+    "costPerNight": 411.74
+  },
+  {
+    "number": 44,
+    "roomType": "residential suite",
+    "bidet": true,
+    "bedSize": "full",
+    "numBeds": 2,
+    "costPerNight": 264.38
+  },
+  {
+    "number": 45,
     "roomType": "single room",
     "bidet": false,
     "bedSize": "queen",
     "numBeds": 1,
-    "costPerNight": 216.27
+    "costPerNight": 245.49
+  },
+  {
+    "number": 46,
+    "roomType": "residential suite",
+    "bidet": false,
+    "bedSize": "queen",
+    "numBeds": 2,
+    "costPerNight": 197.53
   },
   {
     "number": 47,
-    "roomType": "residential suite",
-    "bidet": false,
-    "bedSize": "full",
+    "roomType": "single room",
+    "bidet": true,
+    "bedSize": "king",
     "numBeds": 2,
-    "costPerNight": 160.75
+    "costPerNight": 224.36
   },
   {
     "number": 48,
     "roomType": "single room",
     "bidet": true,
-    "bedSize": "king",
+    "bedSize": "full",
     "numBeds": 1,
-    "costPerNight": 409.52
+    "costPerNight": 499.39
   },
   {
     "number": 49,
-    "roomType": "suite",
+    "roomType": "single room",
     "bidet": false,
     "bedSize": "queen",
-    "numBeds": 1,
-    "costPerNight": 241.57
+    "numBeds": 2,
+    "costPerNight": 246.2
   },
   {
     "number": 50,
-    "roomType": "single room",
+    "roomType": "suite",
     "bidet": false,
     "bedSize": "full",
     "numBeds": 2,
-    "costPerNight": 430.85
+    "costPerNight": 310.74
   }
 ]

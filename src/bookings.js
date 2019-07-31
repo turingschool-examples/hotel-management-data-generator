@@ -3,7 +3,7 @@ const generateValueWithinRange = require('./util').generateValueWithinRange;
 
 function genDate() {
   let daysInFuture = generateValueWithinRange(0, global.numDays, 0);
-  return moment().add(daysInFuture, 'days').format('DD/MM/YYYY');
+  return moment().add(daysInFuture, 'days').format('YYYY/MM/DD');
 }
 
 function genUserIDList() {
