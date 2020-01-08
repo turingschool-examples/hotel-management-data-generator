@@ -5,7 +5,7 @@ const genRoomServices = require('./src/roomServices');
 const genRooms = require('./src/rooms');
 
 // Globals
-global.numUsers = 100;
+global.numUsers = 50;
 global.numDays = global.numUsers;
 global.numRoomsInHotel = global.numUsers / 2;
 global.numBookings = global.numUsers * 20;

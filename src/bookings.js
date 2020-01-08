@@ -1,4 +1,5 @@
 const moment = require('moment');
+const uniqid = require('uniqid');
 const generateValueWithinRange = require('./util').generateValueWithinRange;
 
 function genDate() {
@@ -29,12 +30,13 @@ function generateValidBooking(userForBooking, bookings) {
   let validFlag = false;
 
   while (!validFlag) {
+    let bookingID = uniqid();
     let randomDate = genDate();
     let randomRoomNumber = generateValueWithinRange(1, global.numRoomsInHotel, 0);
     
     if (!checkIfBookingExists(randomDate, randomRoomNumber, bookings)) {
       validFlag = true;
-      return {userID: userForBooking, date: randomDate, roomNumber: randomRoomNumber};
+      return {id: bookingID, userID: userForBooking, date: randomDate, roomNumber: randomRoomNumber, roomServiceCharges: []};
     }  
   }
 }
